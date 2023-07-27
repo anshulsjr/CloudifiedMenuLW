@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://unpkg.com/axios@0.24.0/dist/axios.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Integration Project</title>
+    <style>
+        body {
+            background-color: #C7D0D5;
+        }
+
+        .navbar {
+            background-color: #18122B;
+        }
+
+        .navbar-brand {
+            color: aliceblue;
+            font-size: 30px;
+        }
+
+        .navnav {
+            height: 110px;
+        }
+
+        .ul1 {
+            margin: auto;
+        }
+
+        .nav-link {
+            font-size: 20px;
+            color: aliceblue;
+        }
+
+        .main_body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 25px;
+        }
+
+        .card {
+            width: 300px;
+            margin: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            background-color: white;
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+        .card-body {
+            padding: 15px;
+        }
+
+        .card-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .card-text {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .btn-primary {
+            background-color: #008BFF;
+            border: none;
+            outline: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #0070cc;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navnav">
+            <div class="container-fluid">
+                <a class="navbar-brand" id="Project_name" href="/integrate.html">Integration Project</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Add your navigation items here if needed -->
+            </div>
+        </nav>
+    </div>
+
+    <div class="main_body">
+        <div class="column_of_services">
+            <div class="card text-center">
+                <img src="email.png" alt="Send Email" height="150px" width="170px">
+                <div class="card-body">
+                    <h5 class="card-title">Send Email</h5>
+                    <p class="card-text">Easily send emails without any hassle</p>
+                    <a href="/email_pyhton.html" class="btn btn-primary">Send Email</a>
+                </div>
+            </div>
+
+            <div class="card text-center">
+                <img src="sms.png" alt="Send SMS" height="150px" width="170px">
+                <div class="card-body">
+                    <h5 class="card-title">Send SMS</h5>
+                    <p class="card-text">Send an SMS to anybody with just a click</p>
+                    <a href="/sms.html" class="btn btn-primary">Use SMS</a>
+                </div>
+            </div>
+
+            <div class="card text-center">
+                <img src="chatbot.png" alt="Use Chatbot" height="150px" width="170px">
+                <div class="card-body">
+                    <h5 class="card-title">Use Chatbot</h5>
+                    <p class="card-text">Talk to our own ChatGPT chatbot</p>
+                    <a href="/chatbot-html.html" class="btn btn-primary">Use Chatbot</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
